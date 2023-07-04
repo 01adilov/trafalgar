@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(15, 86, 86);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.box {
+    width: 590px;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 85px;
+    padding-right: 84px;
+}
+
+.p {
+
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text {
+    color: gray;
+    padding-top: 20px;
+}
+
+.first-section {
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+.head {
+    display: flex;
+}
+
+.img {
+    margin-left: auto;
+    align-items: center;
+}
+
+.img:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px rgb(150, 148, 148);
+
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.money {
+    font-weight: 700;
+    margin-left: auto;
+
+}
+
+.chapelli {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.chapelli-text {
+    color: rgb(100, 100, 100);
+}
+
+.chapelli-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.we {
+    font-weight: 600;
+}
+
+
+.second {
+    background-image: url(./img/bicycle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 162px;
+}
